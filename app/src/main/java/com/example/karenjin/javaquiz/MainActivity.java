@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
         MyListener theListener = new MyListener();
-
         mTrueButton.setOnClickListener(theListener);
         mFalseButton.setOnClickListener(theListener);
 
